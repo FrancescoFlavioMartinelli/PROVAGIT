@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+        @font-face {
+            font-family: "FontCustom";
+            src: url("/mabook/Mabook.ttf");
+        }
+
+        section {
+            color: blue;
+        }
+
+        .container .testo {
+            color: rebeccapurple;
+        }
+
+        p {
+            font-family: 'Tiro Devanagari Sanskrit', serif;
+        }
+
+        h1,
+        h2 {
+            color: red;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h2 {
+            font-family: FontCustom;
+            font-weight: 800;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        #titolo {
+            color: green;
+            font-size: 3em;
+        }
+
+        h2.text-center {
+            color: orange;
+        }
+
+        .testo {
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+
+        .text-center.testo {
+            color: purple;
+        }
+
+        h1.text-center {
+            background-color: black
+        }
+
+        h2.text-center {
+            background-color: chocolate;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        #intro {
+            background-color:red;
+            background-image: url("/mabook/Mabook.jpg");
+
+            background-size: contain;
+
+            background-repeat: no-repeat;
+
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="intro">
+
+        <h1 style="margin-bottom: 50px;" class="text-center" id="titolo">Titolo</h1>
+        <h2 class="text-center">sottotitolo</h2>
+        <p class="text-center">lorem ipsum dolor sit am</p>
+        <hr>
+        <h1>Sezione 2</h1>
+        <h2>sottotitolo 2</h2>
+        <p>testo generico</p>
+        <p class="text-center testo">un altro paragrafo della sezione</p>
+    </section>
+
+    <div class="container">
+        <p class="testo">ciao</p>
+    </div>
+    
+    <img src="/mabook/Mabook.jpg" alt="Foto sito">
+
+</body>
+
+</html>
